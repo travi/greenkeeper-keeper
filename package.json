@@ -1,5 +1,5 @@
 {
-  "name": "reference-instance",
+  "name": "github-bot",
   "license": "MIT",
   "private": true,
   "author": "Matt Travi",
@@ -15,7 +15,7 @@
     "test": "run-s lint:* tests:*",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
-    "build": "babel src --out-dir lib",
+    "build": "babel src --source-maps --out-dir lib",
     "start": "node lib/index.js",
     "postinstall": "run-s build"
   },
@@ -27,8 +27,9 @@
   "devDependencies": {
     "@travi/any": "1.4.1",
     "babel-cli": "6.26.0",
-    "babel-preset-es2015-node": "6.1.1",
-    "babel-preset-stage-3": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "babel-register": "6.26.0",
     "chai": "4.1.1",
     "cucumber": "3.0.0",
     "cz-conventional-changelog": "2.0.0",
