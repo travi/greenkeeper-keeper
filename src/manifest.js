@@ -27,6 +27,13 @@ export default {
           acceptAction: 'rebase'
         }
       },
+      {
+        plugin: 'hapi-graceful-shutdown-plugin',
+        options: {
+          sigtermTimeout: 10,
+          sigintTimeout: 1
+        }
+      },
       {plugin: '@travi/hapi-github-webhooks'},
       {plugin: './auth'}
     ]
