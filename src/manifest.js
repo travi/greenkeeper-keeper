@@ -27,7 +27,7 @@ export default {
           acceptAction: 'rebase'
         }
       },
-      {plugin: 'hapi-github-webhooks'},
+      {plugin: '@travi/hapi-github-webhooks'},
       {plugin: './auth'}
     ]
   }
