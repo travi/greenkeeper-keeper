@@ -1,7 +1,7 @@
 # reference-instance
 
-an instance of a greenkeeper-keeper service that should serve as a good reference
-implementation
+my personal instance of the [greenkeeper-keeper](https://github.com/greenkeeper-keeper/hapi-greenkeeper-keeper)
+for managing [greenkeeper](https://greenkeeper.io/) PRs automatically
 
 [![license](https://img.shields.io/github/license/travi/greenkeeper-keeper.svg)](LICENSE)
 
