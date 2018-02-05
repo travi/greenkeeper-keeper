@@ -1,5 +1,5 @@
 export const plugin = {
-  async register(server, options) {
+  async register(server) {
     server.auth.strategy('githubwebhook', 'githubwebhook', {secret: process.env.GITHUB_WEBHOOK_SECRET});
     server.auth.default('githubwebhook');
   },
