@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@travi/hapi-github-webhooks": "2.0.0",
-    "dotenv-safe": "5.0.0",
+    "dotenv-safe": "5.0.1",
     "glue": "5.0.0",
     "good": "8.1.0",
     "good-console": "7.1.0",
