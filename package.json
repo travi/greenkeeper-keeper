@@ -13,7 +13,7 @@
     "test:integration:base": "cucumber-js test/integration --require-module babel-register --format-options '{\"snippetInterface\": \"async-await\"}' --exit",
     "tests:integration:debug": "DEBUG=test run-s tests:integration",
     "tests:integration:wip": "run-s tests:integration:base -- --tags @wip",
-    "test": "run-s lint:* test:*",
+    "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "build": "babel src --source-maps --out-dir lib",
