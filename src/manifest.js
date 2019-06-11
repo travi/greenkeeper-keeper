@@ -5,16 +5,16 @@ export default {
   register: {
     plugins: [
       {
-        plugin: 'good',
+        plugin: '@hapi/good',
         options: {
           reporters: {
             console: [
               {
-                module: 'good-squeeze',
+                module: '@hapi/good-squeeze',
                 name: 'Squeeze',
                 args: [{log: '*', request: '*', response: '*', error: '*'}]
               },
-              {module: 'good-console'},
+              {module: '@hapi/good-console'},
               'stdout'
             ]
           }

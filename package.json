@@ -46,11 +46,11 @@
     "npm-run-all": "4.1.5"
   },
   "dependencies": {
+    "@hapi/glue": "6.1.0",
+    "@hapi/good": "8.2.0",
+    "@hapi/good-console": "8.1.0",
+    "@hapi/good-squeeze": "5.2.0",
     "dotenv-safe": "6.1.0",
-    "glue": "5.0.0",
-    "good": "8.1.2",
-    "good-console": "8.0.0",
-    "good-squeeze": "5.1.0",
     "hapi-github-webhooks": "2.0.2",
     "hapi-graceful-shutdown-plugin": "2.0.8",
     "hapi-greenkeeper-keeper": "2.1.4"
