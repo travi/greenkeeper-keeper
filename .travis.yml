@@ -1,7 +1,7 @@
 language: node_js
 notifications:
   email: false
-before_script: npm ls >/dev/null
+#before_script: npm ls >/dev/null
 deploy:
   provider: heroku
   app: travi-greenkeeper-keeper
