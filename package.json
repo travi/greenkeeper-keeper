@@ -48,7 +48,7 @@
   "dependencies": {
     "@hapi/glue": "6.1.1",
     "@hapi/good": "8.2.1",
-    "@hapi/good-console": "8.1.0",
+    "@hapi/good-console": "8.1.2",
     "@hapi/good-squeeze": "5.2.1",
     "@travi/hapi-github-webhooks": "3.0.0",
     "dotenv-safe": "6.1.0",
