@@ -51,7 +51,7 @@
     "@hapi/good-console": "8.1.2",
     "@hapi/good-squeeze": "5.2.1",
     "@travi/hapi-github-webhooks": "3.0.0",
-    "dotenv-safe": "8.1.0",
+    "dotenv-safe": "8.2.0",
     "hapi-graceful-shutdown-plugin": "2.0.8",
     "hapi-greenkeeper-keeper": "2.1.10"
   }
