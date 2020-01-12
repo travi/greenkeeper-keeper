@@ -49,7 +49,7 @@
     "@hapi/glue": "6.1.1",
     "@hapi/good": "8.2.4",
     "@hapi/good-console": "8.1.2",
-    "@hapi/good-squeeze": "5.2.1",
+    "@hapi/good-squeeze": "6.0.0",
     "@travi/hapi-github-webhooks": "3.0.0",
     "dotenv-safe": "8.2.0",
     "hapi-graceful-shutdown-plugin": "2.0.8",
